@@ -20,6 +20,9 @@ targets = {
   "ubuntu16.04"  => {
     "box" => "bento/ubuntu-16.04"
   },
+  "ubuntu16.04-32" => {
+    "box" => "ubuntu/xenial32",
+  },
   "ubuntu14"  => {
     "box" => "ubuntu/trusty64"
   },
@@ -28,6 +31,9 @@ targets = {
   },
   "freebsd10" => {
     "box" => "bento/freebsd-10.2"
+  },
+  "veos" => {
+    "box" => "vEOS-lab-4.16.6M",
   },
   "aws-amazon2015.03" => {
     "box" => "andytson/aws-dummy",
